@@ -3,7 +3,6 @@ import Header from "../components/Header";
 import Meta from "../components/Meta";
 import Footer from "../components/Footer";
 import banner from "../public/assets/game-wallpaper.jpg";
-import mypic from "../public/assets/M.Irmawan-foto.JPG";
 import Navbar from "../components/Navbar";
 
 export default function Aboutus() {
@@ -31,7 +30,7 @@ export default function Aboutus() {
                     className="rounded-full object-cover"
                     height={400}
                     width={400}
-                    src={mypic}
+                    src=""
                   />
                 </div>
                 <div class="flex flex-col items-center text-center justify-center">
