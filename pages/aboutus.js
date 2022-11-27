@@ -35,7 +35,7 @@ export default function Aboutus() {
                 </div>
                 <div class="flex flex-col items-center text-center justify-center">
                   <h2 class="font-medium title-font mt-4 text-gray-900 text-lg text-white">
-                    M.Irmawan
+                    Nabila Hana Saphira
                   </h2>
                   <div class="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
                   <p class="text-base text-slate-200">
