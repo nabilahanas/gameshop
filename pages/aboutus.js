@@ -39,7 +39,7 @@ export default function Aboutus() {
                   </h2>
                   <div class="w-12 h-1 bg-emerald-500 rounded mt-2 mb-4"></div>
                   <p class="text-base text-slate-200">
-                  Why is it that the character for happiness '幸' includes the money '￥' sign? 
+                    Live your life 
                   </p>
                 </div>
               </div>
@@ -56,8 +56,8 @@ export default function Aboutus() {
                     <span className="hover:text-emerald-300 text-slate-200">
                         MMO Games API
                     </span>
-                    <span>.</span>
                   </a>
+                  <span>. This Gameshop App was made to fulfill Final Assignment of Mobile Device Programming Practice.</span>
                 </p>
               </div>
             </div>

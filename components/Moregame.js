@@ -2,7 +2,7 @@
 
 
 import { useEffect, useState } from "react";
-import ItemCard from "./ItemCard";
+import ItemCardNews from "./ItemCardNews"
 
 const options = {
   method: "GET",
@@ -32,7 +32,7 @@ export default function List() {
           {data === null ? (
             <p class="mx-auto text-center font-bold">Loading...</p>
           ) : (
-            data.map((item, index) => <ItemCard key={index} data={item} />)
+            data.map((item, index) => <ItemCardNews key={index} data={item} />)
           )}
         </div>
       </div>

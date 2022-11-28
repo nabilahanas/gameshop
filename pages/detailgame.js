@@ -36,11 +36,15 @@ export default function Home() {
               {data ? data.title : ""}
             </h1>
             <p class="mb-8 leading-relaxed text-slate-200">
-              {data ? data.description : ""}
+              {data ? data.short_description: ""}
+            </p>
+            <p class="mb-8 leading-relaxed text-slate-200">
+              Read more: {" "}
+              {data ? data.article_url: ""}
             </p>
           </div>
           <Link 
-            href="/gamelist" 
+            href="/news" 
             class="text-white bg-emerald-300 border-0 py-2 px-6 focus:outline-none hover:bg-emerald-400 rounded inline-flex items-center">
               Back</Link>
         </div>
