@@ -1,15 +1,16 @@
 import Header from "../components/Header";
 import Meta from "../components/Meta";
 import Footer from "../components/Footer";
-import List from "../components/List";
+import Image from "next/image";
 import Navbar from "../components/Navbar";
+import Moregame from "../components/Moregame"
 
-export default function Faq() {
+export default function Tools() {
   return (
     <div>
-      <Meta title="Game List" />
+      <Meta title="News" />
       <Header />
-      <List />
+      <Moregame />
       <Navbar />
       <Footer />
     </div>

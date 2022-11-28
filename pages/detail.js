@@ -18,7 +18,7 @@ export default function Home() {
 
   return (
     <div>
-      <Meta title="GameLib : Detail" />
+      <Meta title="Detail" />
 
       <Header />
 
@@ -32,22 +32,18 @@ export default function Home() {
             src={data ? data.thumbnail : ""}
           />
           <div class="text-center lg:w-2/3 w-full">
-            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white ">
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-bold text-emerald-400 ">
               {data ? data.title : ""}
             </h1>
             <p class="mb-8 leading-relaxed text-slate-200">
               {data ? data.description : ""}
-            </p>
-            <p class="mb-8 leading-relaxed text-slate-200">
-              {data ? data.instructions : ""}
+              {data ? data.short_description: ""}
             </p>
           </div>
-          <Link
-            href="/gamelist"
-            class="mt-3 text-indigo-500 inline-flex items-center "
-          >
-            Back
-          </Link>
+          <Link 
+            href="/gamelist" 
+            class="text-white bg-emerald-300 border-0 py-2 px-6 focus:outline-none hover:bg-emerald-400 rounded inline-flex items-center">
+              Back</Link>
         </div>
       </section>
       <Navbar />

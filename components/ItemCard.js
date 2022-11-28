@@ -26,14 +26,14 @@ export default function ItemCard(props) {
             onError={() => setImageError(true)}
           />
         </div>
-        <h2 class="text-xl font-medium title-font text-gray-900 mt-5 text-white hover:text-violet-700">
+        <h2 class="text-xl font-medium title-font text-gray-900 mt-5 text-white hover:text-emerald-300">
           {props.data.title}
         </h2>
         <p class="text-base leading-relaxed mt-2 text-slate-200">
           {props.data.worth}
         </p>
         <p class="text-base leading-relaxed mt-2 text-slate-200">
-          {props.data.published_date}
+          {props.data.platforms}
         </p>
       </Link>
     </div>

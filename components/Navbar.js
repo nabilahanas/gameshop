@@ -1,12 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faHouse,
-  faGamepad,
-  faUser,
-  faDungeon,
-} from "@fortawesome/free-solid-svg-icons";
 
 export default function Navbar() {
   return (
@@ -15,29 +8,26 @@ export default function Navbar() {
         <Link href="/" class="mr-5">
           <div className="ml-2">
           </div>
-          <p className="hover:text-violet-700 text-slate-200 font-bold">Home</p>
+          <p className="hover:text-emerald-300 text-slate-200 font-bold">Home</p>
         </Link>
         <Link href="/gamelist" class="mr-5 ">
           <div className="ml-3">
-
           </div>
-          <p className="hover:text-violet-700 text-slate-200 font-bold">
-            Gamelist
+          <p className="hover:text-emerald-300 text-slate-200 font-bold">
+            Game
           </p>
         </Link>
-        <Link href="/platform" class="mr-5 ">
+        <Link href="/news" class="mr-5 ">
           <div className="ml-10">
-
           </div>
-          <p className="hover:text-violet-700 text-slate-200 font-bold">
-            Game Platform
+          <p className="hover:text-emerald-300 text-slate-200 font-bold">
+            Game News
           </p>
         </Link>
         <Link href="/aboutus" class="mr-5">
           <div className="ml-3">
-
           </div>
-          <p className="hover:text-violet-700 text-slate-200 font-bold">
+          <p className="hover:text-emerald-300 text-slate-200 font-bold">
             About
           </p>
         </Link>
