@@ -45,7 +45,7 @@ export default function Aboutus() {
               </div>
               <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-emerald-300 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
                 <p class="leading-relaxed text-lg mb-4 text-slate-200">
-                  Gameshop is a game sales information application made using Next.js using {' '}
+                  Gameshop is a game sales and news information application made using Next.js using {' '}
                   <a href="https://rapidapi.com/digiwalls/api/gamerpower/" target="_blank" rel="noreferrer">
                     <span className="hover:text-emerald-300 text-slate-200">
                       GamerPower API 
@@ -57,7 +57,7 @@ export default function Aboutus() {
                         MMO Games API
                     </span>
                   </a>
-                  <span>. This Gameshop App was made to fulfill Final Assignment of Mobile Device Programming Practice.</span>
+                  <span>. This Gameshop app was made to fulfill Final Assignment of Mobile Device Programming Practice.</span>
                 </p>
               </div>
             </div>

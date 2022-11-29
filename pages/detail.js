@@ -32,7 +32,7 @@ export default function Home() {
             src={data ? data.thumbnail : ""}
           />
           <div class="text-center lg:w-2/3 w-full">
-            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-bold text-emerald-400 ">
+            <h1 class="title-font sm:text-3xl text-2xl mb-4 font-bold text-emerald-400 ">
               {data ? data.title : ""}
             </h1>
             <p class="mb-8 leading-relaxed text-slate-200">

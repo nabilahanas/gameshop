@@ -40,7 +40,11 @@ export default function Home() {
             </p>
             <p class="mb-8 leading-relaxed text-slate-200">
               Read more: {" "}
-              {data ? data.article_url: ""}
+              <a href={data ? data.article_url: ""} target="_blank" rel="noreferrer">
+                <span className="hover:text-emerald-300 text-slate-200">
+                  {data ? data.article_url: ""}
+                </span>
+              </a>
             </p>
           </div>
           <Link 
